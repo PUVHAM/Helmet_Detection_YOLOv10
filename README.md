@@ -48,29 +48,29 @@ streamlit run app.py
 ### Testing Pre-trained Model
 Use the provided pre_trained_model.ipynb notebook to test the pre-trained model.
 
-1. Open pre_trained_model.ipynb in Google Colab.
+1. Open `pre_trained_model.ipynb` in Google Colab.
 2. Follow the instructions in the notebook to test the pre-trained model on sample images or videos.
 
 ### Training the Model
 Training is done on Google Colab using the provided Jupyter notebook.
 
-1. Open helmet_safety_detection.ipynb in Google Colab.
+1. Open `helmet_safety_detection.ipynb` in Google Colab.
 2. Follow the instructions in the notebook to train the model using the Safety Helmet Dataset.
-3. The trained model will be saved as best.pt.
+3. The trained model will be saved as `best.pt`.
 4. Download the Safety Helmet Dataset [here](https://drive.google.com/file/d/1twdtZEfcw4ghSZIiPDypJurZnNXzMO7R/view).
 
 ## Files in the Repository
-* app.py: Streamlit application code for helmet detection.
-* requirements.txt: List of dependencies to be installed.
-* pre_trained_model.ipynb: Jupyter notebook for testing the pre-trained model.
-* helmet_safety_detection.ipynb: Jupyter notebook for training YOLOv10 on the Safety Helmet Dataset.
-* best.pt: The YOLOv10 model trained on the Safety Helmet Dataset.
-* predict.py: Code to handle the image prediction process in the Streamlit app.
-* processing.py: Code for processing the image using the YOLOv10 model.
+* `app.py:` Streamlit application code for helmet detection.
+* `requirements.txt:` List of dependencies to be installed.
+* `pre_trained_model.ipynb:` Jupyter notebook for testing the pre-trained model.
+* `helmet_safety_detection.ipynb:` Jupyter notebook for training YOLOv10 on the Safety Helmet Dataset.
+* `best.pt:` The YOLOv10 model trained on the Safety Helmet Dataset.
+* `predict.py:` Code to handle the image prediction process in the Streamlit app.
+* `processing.py:` Code for processing the image using the YOLOv10 model.
 
 ## Model and Dataset
 * The model is trained on the Safety Helmet Dataset.
-* The 'best.pt' file is the result of the training process and is used for inference in the Streamlit app.
+* The `best.pt` file is the result of the training process and is used for inference in the Streamlit app.
 
 ## Acknowledgments
 * [YOLOv10 GitHub Repository](https://github.com/THU-MIG/yolov10)
