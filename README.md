@@ -22,7 +22,7 @@ The purpose of this project is to ensure working safety by monitoring the use of
 To get started, clone the repository and install the required dependencies.
 
 ```bash
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/PUVHAM/Helmet_Detection_YOLOv10.git)
+git clone https://github.com/PUVHAM/Helmet_Detection_YOLOv10.git
 cd Helmet_Detection_YOLOv10
 pip install -r requirements.txt
 ```
