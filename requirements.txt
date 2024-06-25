@@ -1,0 +1,5 @@
+streamlit
+numpy
+opencv-python-headless
+pillow
+git+https://github.com/THU-MIG/yolov10.git
