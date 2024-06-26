@@ -2,4 +2,5 @@ streamlit
 numpy
 opencv-python-headless
 pillow
+huggingface_hub
 git+https://github.com/THU-MIG/yolov10.git

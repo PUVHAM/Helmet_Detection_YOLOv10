@@ -21,11 +21,46 @@ The purpose of this project is to ensure working safety by monitoring the use of
 
 To get started, clone the repository and install the required dependencies.
 
-```bash
-git clone https://github.com/PUVHAM/Helmet_Detection_YOLOv10.git
-cd Helmet_Detection_YOLOv10
-pip install -r requirements.txt
-```
+### Prerequisites
+
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/distribution)
+
+### Step-by-Step Installation
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/PUVHAM/Helmet_Detection_YOLOv10.git
+    cd Helmet_Detection_YOLOv10
+    ```
+
+2. **Create and Activate Conda Environment:**
+
+    If you don't have Miniconda or Anaconda installed, you can download it [here](https://docs.conda.io/en/latest/miniconda.html).
+
+    ```bash
+    conda create --name helmet_detection python=3.8
+    conda activate helmet_detection
+    ```
+
+3. **Install Dependencies from requirements.txt:**
+
+    Make sure you are in the root directory of the project.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    This will install necessary Python packages including Streamlit, OpenCV, and other dependencies.
+
+4. **Install Additional System Dependencies (if needed):**
+
+    For Ubuntu or Debian-based systems, you might need to install `libGL`:
+
+    ```bash
+    sudo apt-get update
+    sudo apt-get install libgl1-mesa-glx
+    ```
 
 ## Usage 
 
