@@ -1,0 +1,13 @@
+name: helmet_detection
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - streamlit
+  - opencv
+  - py-opengl
+  - glew
+  - pip
+  - pip:
+      - huggingface_hub
+      - ultralytics
