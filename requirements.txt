@@ -1,5 +1,6 @@
 streamlit
 numpy
+opencv-python
 opencv-python-headless
 pillow
 huggingface_hub
