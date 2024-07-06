@@ -4,4 +4,5 @@ opencv-python
 opencv-python-headless
 pillow
 huggingface_hub
+pytube
 git+https://github.com/THU-MIG/yolov10.git
