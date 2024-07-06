@@ -80,6 +80,16 @@ streamlit run app.py
 * Upload an image file (jpg, jpeg, png).
 * Click on the "Predict" button to see the detection results.
 
+3. Predict from a YouTube Video:
+
+* Enter a YouTube video URL in the text box provided.
+* Click on "Predict" to process the video for helmet detection.
+
+4. Upload and Predict from a Video File:
+
+* Choose a video file (mp4, avi, mov) using the file uploader.
+* Click on the "Predict" button to process the video for helmet detection.
+
 ### Testing Pre-trained Model
 Use the provided pre_trained_model.ipynb notebook to test the pre-trained model.
 
@@ -100,8 +110,8 @@ Training is done on Google Colab using the provided Jupyter notebook.
 * `pre_trained_model.ipynb:` Jupyter notebook for testing the pre-trained model.
 * `helmet_safety_detection.ipynb:` Jupyter notebook for training YOLOv10 on the Safety Helmet Dataset.
 * `best.pt:` The YOLOv10 model trained on the Safety Helmet Dataset.
-* `predict.py:` Code to handle the image prediction process in the Streamlit app.
-* `processing.py:` Code for processing the image using the YOLOv10 model.
+* `predict.py:` Code to handle image and video prediction processes in the Streamlit app.
+* `processing.py:` Code for processing images and videos using the YOLOv10 model.
 
 ## Model and Dataset
 * The model is trained on the Safety Helmet Dataset.
