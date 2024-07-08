@@ -1,7 +1,7 @@
 import streamlit as st 
 import time
 import os
-from processing import process_image, process_video
+from src.processing import process_image, process_video
 from PIL import Image
 from pytube import YouTube
 

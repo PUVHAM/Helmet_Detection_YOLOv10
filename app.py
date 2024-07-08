@@ -1,5 +1,5 @@
 import streamlit as st
-from predict import predict_image, predict_video
+from src.predict import predict_image, predict_video
 
 def main():
     st.title('YOLOv10 Helmet Detection')
