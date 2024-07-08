@@ -2,6 +2,12 @@
 
 This repository contains code and instructions for training and deploying a YOLOv10 model to monitor working safety by detecting helmets. The training is performed using Google Colab for free GPU access, and a Streamlit web application is provided for users to interact with the model.
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1IRuI5TRfW54R8S67By2i4srBMrqjaJYK" width="40%" style="margin-right: 5%;" />
+  <img src="https://drive.google.com/uc?export=view&id=1y9q6iaEm0iHc8o3N099OYZZcVcqncLu-" width="40%" />
+</p>
+
+
 ## Table of Contents
 - [Purpose](#purpose)
 - [Installation](#installation)
